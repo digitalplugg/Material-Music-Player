@@ -6,4 +6,5 @@
     <dimen name="nav_header_height">180dp</dimen>
     <dimen name="nav_header_title_text_size">20sp</dimen>
     <dimen name="nav_header_subtitle_text_size">15sp</dimen>
+    <dimen name="normal_text_size">15sp</dimen>
 </resources>
