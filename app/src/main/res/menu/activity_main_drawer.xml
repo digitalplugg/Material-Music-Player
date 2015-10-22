@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/music_library">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_song"
+                    android:title="@string/song"/>
+                <item android:id="@+id/nav_album"
+                    android:title="@string/album" />
+                <item android:id="@+id/nav_artist"
+                    android:title="@string/artist" />
+                <item android:id="@+id/nav_folder"
+                    android:title="@string/folder" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/playlist">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_now_playing"
+                   android:title="@string/now_playing"/>
+                <item android:id="@+id/nav_favorite"
+                    android:title="@string/favorite"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/tool">
+        <menu>
+            <item android:id="@+id/nav_settings"
+                android:title="@string/action_settings"/>
+        </menu>
+    </item>
+
+</menu>
