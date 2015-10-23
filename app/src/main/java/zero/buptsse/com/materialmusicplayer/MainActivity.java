@@ -1,5 +1,6 @@
 package zero.buptsse.com.materialmusicplayer;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -71,7 +72,16 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
+        switch (id)
+        {
+            case R.id.nav_exit:
+                System.exit(0);
+            case R.id.nav_settings:
+                Intent intent = new Intent();
+                intent.setClass(this, SettingsActivity.class);
+                startActivity(intent);
+                break;
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout_main_activity);
         drawer.closeDrawer(GravityCompat.START);
         return true;

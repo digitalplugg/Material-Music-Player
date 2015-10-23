@@ -12,4 +12,7 @@
     <string name="now_playing">Now Playing</string>
     <string name="favorite">Favorites</string>
     <string name="tool">Tools</string>
+    <string name="exit">Exit</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
 </resources>
