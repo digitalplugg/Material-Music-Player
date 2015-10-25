@@ -1,21 +1,68 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/LightBlue</item>
-        <item name="colorPrimaryDark">@color/Blue</item>
-        <item name="colorAccent">@color/Blue</item>
-    </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/LightBlue</item>
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/Blue</item>
+    </style>
+
+    <style name="AppOrangeTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightOrange</item>
+        <item name="colorAccent">@color/Orange</item>
+    </style>
+    <style name="AppRedTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightRed</item>
+        <item name="colorAccent">@color/Red</item>
+    </style>
+    <style name="AppGreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightGreen</item>
+        <item name="colorAccent">@color/Green</item>
+    </style>
+    <style name="AppCyanTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightCyan</item>
+        <item name="colorAccent">@color/Cyan</item>
+    </style>
+    <style name="AppTealTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightTeal</item>
+        <item name="colorAccent">@color/Teal</item>
+    </style>
+    <style name="AppPinkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightPink</item>
+        <item name="colorAccent">@color/Pink</item>
+    </style>
+    <style name="AppPurpleTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightPurple</item>
+        <item name="colorAccent">@color/Purple</item>
+    </style>
+    <style name="AppLightGreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightGrassGreen</item>
+        <item name="colorAccent">@color/GrassGreen</item>
+    </style>
+    <style name="AppLimeTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightLime</item>
+        <item name="colorAccent">@color/Lime</item>
+    </style>
+    <style name="AppBlueGreyTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/LightBlueGrey</item>
+        <item name="colorAccent">@color/BlueGrey</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="NormalTextAppearance" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textSize">@dimen/normal_text_size</item>
+    </style>
+
+    <style name="LargeTextAppearance" parent="NormalTextAppearance">
+        <item name="android:textSize">@dimen/large_text_size</item>
     </style>
 
 </resources>

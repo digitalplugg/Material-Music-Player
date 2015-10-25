@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Blue"/>
+        </shape>
+    </item>
+    <item android:maxLevel="1">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Red"/>
+        </shape>
+    </item>
+    <item android:maxLevel="2">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Orange"/>
+        </shape>
+    </item>
+    <item android:maxLevel="3">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Green"/>
+        </shape>
+    </item>
+    <item android:maxLevel="4">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Teal"/>
+        </shape>
+    </item>
+    <item android:maxLevel="5">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Pink"/>
+        </shape>
+    </item>
+    <item android:maxLevel="6">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Purple"/>
+        </shape>
+    </item>
+    <item android:maxLevel="7">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Cyan"/>
+        </shape>
+    </item>
+    <item android:maxLevel="8">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/GrassGreen"/>
+        </shape>
+    </item>
+    <item android:maxLevel="9">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/Lime"/>
+        </shape>
+    </item>
+    <item android:maxLevel="10">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="@android:color/black"/>
+            <solid android:color="@color/BlueGrey"/>
+        </shape>
+    </item>
+</level-list>

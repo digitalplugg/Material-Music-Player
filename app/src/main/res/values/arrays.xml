@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="theme_option_value_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    
+    <string-array name="theme_option_array">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Green</item>
+    </string-array>
+</resources>

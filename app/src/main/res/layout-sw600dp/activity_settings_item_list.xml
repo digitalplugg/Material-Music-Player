@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <!--
+    This layout is a two-pane layout for the Items
+    master/detail flow.
+    -->
+
+    <fragment android:id="@+id/fragment_settings_item_list"
+        android:name="com.buptsse.zero.materialmusicplayer.settings.SettingsItemListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        tools:layout="@android:layout/list_content" />
+
+    <View
+        android:layout_width="2px"
+        android:layout_height="match_parent"
+        android:background="@color/LightGray"/>
+
+    <LinearLayout android:id="@+id/settings_item_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"/>
+
+</LinearLayout>

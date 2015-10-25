@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_info_title"
+        android:layout="@layout/preference_category_header">
+        <Preference android:title="@string/app_name_label"
+            android:icon="@mipmap/ic_launcher"
+            android:summary="@string/app_name"/>
+        <Preference android:title="@string/app_version_label"
+            android:summary="@string/app_version_name"/>
+        <Preference android:title="@string/app_license_label"
+            android:summary="GNU General Public License Version 3"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/open_source_license_label"
+        android:layout="@layout/preference_category_header">
+        <Preference android:title="Android Open Source Project"
+            android:summary="Apache License,Version 2.0"/>
+    </PreferenceCategory>
+</PreferenceScreen>

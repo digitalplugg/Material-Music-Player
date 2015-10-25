@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="zero.buptsse.com.materialmusicplayer" >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.buptsse.zero.materialmusicplayer"
+    android:versionCode="1"
+    android:versionName="@string/app_version_name" >
 
     <application
         android:allowBackup="true"
@@ -11,14 +14,19 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingsActivity"
-            android:label="@string/action_settings"/>
+        <activity
+            android:name=".settings.SettingsItemListActivity"
+            android:label="@string/action_settings" >
+        </activity>
+        <activity
+            android:name=".settings.SettingsItemDetailActivity"
+            android:label="@string/action_settings" />
     </application>
 
 </manifest>

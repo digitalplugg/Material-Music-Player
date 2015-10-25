@@ -20,8 +20,9 @@
     <color name="LightRed">#F36C60</color>
     <color name="BlueGrey">#607D8B</color>
     <color name="LightBlueGrey">#90A4AE</color>
-    <color name="GlassGreen">#8BC34A</color>
-    <color name="LightGlassGreen">#AED581</color>
+    <color name="GrassGreen">#8BC34A</color>
+    <color name="LightGrassGreen">#AED581</color>
     <color name="Lime">#CDDC39</color>
     <color name="LightLime">#DCE775</color>
+    <color name="Gray400">#BDBDBD</color>
 </resources>
