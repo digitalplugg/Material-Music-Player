@@ -12,5 +12,12 @@
         <item>Red</item>
         <item>Orange</item>
         <item>Green</item>
+        <item>Teal</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Cyan</item>
+        <item>GrassGreen</item>
+        <item>Lime</item>
+        <item>BlueGray</item>
     </string-array>
 </resources>

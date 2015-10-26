@@ -24,7 +24,7 @@
     <View
         android:layout_width="2px"
         android:layout_height="match_parent"
-        android:background="@color/LightGray"/>
+        android:background="@color/LightGrey"/>
 
     <LinearLayout android:id="@+id/settings_item_detail_container"
         android:layout_width="0dp"

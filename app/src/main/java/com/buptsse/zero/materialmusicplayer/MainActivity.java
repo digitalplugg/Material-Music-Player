@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.buptsse.zero.materialmusicplayer.settings.AppSharePreference;
 import com.buptsse.zero.materialmusicplayer.settings.SettingsItemListActivity;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity
         setTheme(themeID);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        findViewById(R.id.nav_header_layout).getBackground().setLevel(AppSharePreference.getThemeOptionValue(this));
         Toolbar mainToolBar = (Toolbar)findViewById(R.id.toolbar_main_activity);
         setSupportActionBar(mainToolBar);
 
@@ -41,10 +43,10 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
-        if(AppSharePreference.getThemeResID(this) != themeID)
-            this.recreate();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout_main_activity);
         drawer.closeDrawer(GravityCompat.START);
+        if(AppSharePreference.getThemeResID(this) != themeID)
+            this.recreate();
     }
 
     @Override

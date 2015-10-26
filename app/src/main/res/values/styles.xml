@@ -40,7 +40,7 @@
         <item name="colorPrimary">@color/LightPurple</item>
         <item name="colorAccent">@color/Purple</item>
     </style>
-    <style name="AppLightGreenTheme" parent="AppTheme">
+    <style name="AppGrassGreenTheme" parent="AppTheme">
         <item name="colorPrimary">@color/LightGrassGreen</item>
         <item name="colorAccent">@color/GrassGreen</item>
     </style>

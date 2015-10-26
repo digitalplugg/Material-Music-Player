@@ -6,9 +6,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:background="?android:attr/listChoiceBackgroundIndicator"
-    android:clickable="true"
-    android:focusable="true">
+    android:background="?android:attr/listChoiceBackgroundIndicator">
 
     <ImageView android:id="@+id/list_item_icon"
         android:layout_width="@dimen/icon_large_size"
@@ -31,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
-        android:clickable="false"/>
+        android:clickable="false"
+        android:focusable="false"/>
 
 </RelativeLayout>

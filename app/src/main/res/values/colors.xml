@@ -4,7 +4,7 @@
     <color name="LightBlue">#91a7ff</color>
     <color name="Orange">#FF5722</color>
     <color name="LightOrange">#FF8A65</color>
-    <color name="LightGray">#EEEEEE</color>
+    <color name="LightGrey">#EEEEEE</color>
     <color name="Grey">#9E9E9E</color>
     <color name="Green">#259B24</color>
     <color name="LightGreen">#42BD41</color>
@@ -24,5 +24,5 @@
     <color name="LightGrassGreen">#AED581</color>
     <color name="Lime">#CDDC39</color>
     <color name="LightLime">#DCE775</color>
-    <color name="Gray400">#BDBDBD</color>
+    <color name="Grey400">#BDBDBD</color>
 </resources>

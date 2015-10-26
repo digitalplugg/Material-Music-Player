@@ -1,8 +1,10 @@
-package com.buptsse.zero.materialmusicplayer;
+package com.buptsse.zero.materialmusicplayer.settings;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+
+import com.buptsse.zero.materialmusicplayer.R;
 
 public class ThemeColor
 {
