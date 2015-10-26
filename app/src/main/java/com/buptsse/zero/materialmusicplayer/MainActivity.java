@@ -12,7 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.buptsse.zero.materialmusicplayer.settings.AppSharePreference;
+import com.buptsse.zero.materialmusicplayer.settings.provider.AppSharePreference;
 import com.buptsse.zero.materialmusicplayer.settings.SettingsItemListActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -26,7 +26,10 @@ public class MainActivity extends AppCompatActivity
         setTheme(themeID);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.nav_header_layout).getBackground().setLevel(AppSharePreference.getThemeOptionValue(this));
+        View navHeaderLayout = ((NavigationView)findViewById(R.id.nav_view)).inflateHeaderView(R.layout.nav_header_main)
+                                .findViewById(R.id.nav_header_layout);
+        navHeaderLayout.getBackground().setLevel(AppSharePreference.getThemeOptionValue(this));
+
         Toolbar mainToolBar = (Toolbar)findViewById(R.id.toolbar_main_activity);
         setSupportActionBar(mainToolBar);
 

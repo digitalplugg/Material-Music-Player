@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import com.buptsse.zero.materialmusicplayer.MainActivity;
 import com.buptsse.zero.materialmusicplayer.R;
+import com.buptsse.zero.materialmusicplayer.settings.provider.AppSharePreference;
 
 public class SettingsItemListActivity extends AppCompatActivity
         implements SettingsItemListFragment.Callbacks {

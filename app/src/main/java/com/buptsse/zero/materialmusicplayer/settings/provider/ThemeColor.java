@@ -1,4 +1,4 @@
-package com.buptsse.zero.materialmusicplayer.settings;
+package com.buptsse.zero.materialmusicplayer.settings.provider;
 
 import android.content.Context;
 import android.content.res.TypedArray;

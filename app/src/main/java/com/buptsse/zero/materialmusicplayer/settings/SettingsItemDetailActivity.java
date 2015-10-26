@@ -8,6 +8,7 @@ import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
 import com.buptsse.zero.materialmusicplayer.R;
+import com.buptsse.zero.materialmusicplayer.settings.provider.AppSharePreference;
 
 public class SettingsItemDetailActivity extends AppCompatActivity {
     public static final String ARG_TITLE = "arg_title";

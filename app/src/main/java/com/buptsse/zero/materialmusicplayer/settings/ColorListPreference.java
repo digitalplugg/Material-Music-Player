@@ -2,18 +2,18 @@ package com.buptsse.zero.materialmusicplayer.settings;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.preference.CheckBoxPreference;
 import android.support.v7.app.AlertDialog;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 
 import com.buptsse.zero.materialmusicplayer.R;
+import com.buptsse.zero.materialmusicplayer.settings.provider.AppSharePreference;
+import com.buptsse.zero.materialmusicplayer.settings.provider.ThemeColor;
 
 public class ColorListPreference extends CheckBoxPreference {
     private Context context;
